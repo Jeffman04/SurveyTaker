@@ -1,0 +1,114 @@
+.body{
+    width:90%;
+}
+.rates{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table_head{
+    border: 2px solid #1f7ba7; 
+    background-color: lightgray;
+}
+.rates th, .rates td{
+    border: 1px solid #17acf1;
+    padding: 8px;
+}
+.table_r{
+    text-align: left;
+}
+.rates{
+    text-align: center;
+}
+.checkboxes{
+    display: flex;
+    align-items: center;
+    
+}
+.checkboxes p{
+    margin-right: 20px;
+}
+.header_div{
+    display: flex;
+    align-items: center;
+    margin-left: 60%; 
+}
+.header_div .header_h2{
+    padding-right: 20px;
+    color: #17acf1;
+}
+.header_div .link{
+    text-decoration: none;
+    color: rgba(19, 17, 17, 0.781);
+}
+.checkboxes input{
+    margin-left: 20px;
+}
+.checkbox{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #17acf1;
+    border-radius: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox:checked {
+    background-color: #17acf1;
+}
+
+/* Add styling for unchecked checkbox */
+.checkbox:not(:checked) {
+    background-color: transparent;
+    border: 1px solid #17acf1;
+}
+
+/* Style for the box inside the checkbox */
+.checkbox:not(:checked)::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #17acf1;
+    border-radius: 2px;
+}
+.radio{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #17acf1;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+.radio:checked{
+    background-color: #17acf1;
+}
+.label_input{
+    margin-left: 15%;
+    margin-top: -35px;
+    
+}
+.label_input input{
+    border: 2px solid cornflowerblue;
+}
+.head{
+    font: bolder;
+}
+.btn{
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(33, 97, 218);
+    border: 1px solid rgb(33, 97, 218);
+    padding: 5px 35px;
+    color: white;
+    font: bolder;
+    font-size: large;
+}
+.btn:hover{
+    box-shadow: darkblue;
+}
